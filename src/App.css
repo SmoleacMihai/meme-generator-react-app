@@ -24,7 +24,7 @@
 
 .logo--title {
   font-weight: 700;
-  font-size: 20.7482px;
+  font-size: 1.1rem;
   line-height: 24px;
   letter-spacing: -0.1em;
   color: white;
@@ -34,7 +34,51 @@
 .header--title {
   font-family: 'Inter';
   font-weight: 500;
-  font-size: 12px;
+  font-size: .75rem;
   line-height: 24px;
   color: #FFFFFF;
+}
+
+.form {
+  padding: 36px;
+}
+
+.form--inputs {
+  display: flex;
+}
+
+
+.form--inputs {
+  display: flex;
+}
+
+.form--inputs > input {
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  padding: 10px 0;
+  width: 48%;
+  padding-left: 10px;
+  font-family: 'Karla';
+}
+
+.form--first-input {
+  margin-right: auto;
+}
+
+.form--button {
+  margin-top: 15px;
+  width: 100%;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  font-family: 'Karla';
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.meme--image {
+  max-width: 100%;
 }
